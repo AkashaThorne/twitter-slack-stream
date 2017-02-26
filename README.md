@@ -14,3 +14,7 @@ You can deploy it anywhere [Node.js](https://nodejs.org/) is installed.
 1. [Incoming Slack webhook](https://api.slack.com/incoming-webhooks)
 1. Keyword to search on Twitter
 1. Slack channel to stream tweets into
+
+## Deployment
+
+_note: Don't forget to run `heroku ps:scale web=0 worker=1` to get Heroku to run the worker dyno._
