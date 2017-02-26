@@ -1,3 +1,7 @@
+# Emily stuff
+.env
+.vscode
+
 # Logs
 logs
 *.log
