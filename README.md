@@ -54,6 +54,6 @@ The application requires the following environment variables:
 | `ACCESS_TOKEN`         | the token for authorizing your app to use your twitter account |
 | `ACCESS_SECRET`        | the accompanying secret for your twitter account's use of the app |
 
-To launch, simply execute `npm start`.
+To launch, simply execute `npm start`, or deploy to Heroku where it just works automagically (via `Procfile`)!
 
 _Heroku note: Don't forget to run `heroku ps:scale web=0 worker=1` to get Heroku to run the worker dyno._
