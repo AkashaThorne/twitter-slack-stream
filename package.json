@@ -1,7 +1,7 @@
 {
-  "name": "lightning-slack-stream",
+  "name": "twitter-slack-stream",
   "version": "1.0.0",
-  "description": "Stream #LightningNow Tweets to the Trailhead Slack",
+  "description": "Stream tweets to Slack with the greatest of ease!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
