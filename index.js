@@ -11,7 +11,9 @@ const TWITTER_SEARCH_STRING = process.env.TWITTER_SEARCH_STRING;
 if (!SLACK_CHANNEL_NAME) { missing("SLACK_CHANNEL_NAME"); }
 if (!TWITTER_SEARCH_STRING) { missing("TWITTER_SEARCH_STRING"); }
 
-let tweetStream = twitter.stream('statuses/filter', { track: TWITTER_SEARCH_STRING });
+const track = TWITTER_SEARCH_STRING.split(',');
+
+let tweetStream = twitter.stream('statuses/filter', { track });
 
 tweetStream.on('tweet', (tweet) => {
 
