@@ -1,0 +1,35 @@
+{
+  "name": "twitter-slack-stream",
+  "description": "Stream tweets to Slack with the greatest of ease!",
+  "scripts": {
+  },
+  "env": {
+    "ACCESS_SECRET": {
+      "required": true
+    },
+    "ACCESS_TOKEN": {
+      "required": true
+    },
+    "CONSUMER_KEY": {
+      "required": true
+    },
+    "CONSUMER_SECRET": {
+      "required": true
+    },
+    "SLACK_CHANNEL_NAME": "nexxyspace",
+    "SLACK_WEBHOOK_URI": {
+      "required": true
+    },
+    "TWITTER_SEARCH_STRING": "twitterslacktest"
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
