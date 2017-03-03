@@ -62,4 +62,4 @@ tweetStream.on('tweet', (tweet) => {
 
 tweetStream.on('error', (err) => { exit(1, `Twitter stream error: ${err.message} (${err.statusCode})`); });
 
-console.log(`Now streaming tweets containing "${TWITTER_SEARCH_STRING}" to Slack channel: ${SLACK_CHANNEL_NAME}`);
+console.log(`Now streaming tweets containing "${track.join(', ')}" to Slack channel: ${SLACK_CHANNEL_NAME}`);
