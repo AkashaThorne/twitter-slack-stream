@@ -1,6 +1,6 @@
 {
   "name": "twitter-slack-stream",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Stream tweets to Slack with the greatest of ease!",
   "main": "index.js",
   "scripts": {
