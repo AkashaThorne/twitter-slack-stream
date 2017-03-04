@@ -47,12 +47,16 @@ The application requires the following environment variables:
 
 |  Environment Variable  |  Description  |
 |------------------------|---------------|
-| `SLACK_CHANNEL_NAME`   | the name of the Slack channel to send incoming tweets to |
+| `SLACK_CHANNEL_NAME`   | Slack channel to stream incoming tweets into |
+| `SLACK_CLIENT_ID`      | Slack App client ID |
+| `SLACK_CLIENT_SECRET`  | Slack App client secret |
+| `SLACK_WEBHOOK_URL`    | Slack incoming webhook URL |
+| `SLACK_VERIFICATION_TOKEN` | Slack verification token |
 | `TWITTER_SEARCH_STRING`| the keyword to look for on the Twitter firehose |
-| `CONSUMER_KEY`         | the key for your Twitter application |
-| `CONSUMER_SECRET`      | the secret for your Twitter application |
-| `ACCESS_TOKEN`         | the token for authorizing your app to use your twitter account |
-| `ACCESS_SECRET`        | the accompanying secret for your twitter account's use of the app |
+| `TWITTER_CONSUMER_KEY` | the key for your Twitter application |
+| `TWITTER_CONSUMER_SECRET` | the secret for your Twitter application |
+| `TWITTER_ACCESS_TOKEN`    | the token for authorizing your app to use your twitter account |
+| `TWITTER_ACCESS_SECRET`   | the accompanying secret for your twitter account's use of the app |
 
 To launch, simply execute `npm start`, or deploy to Heroku where it just works automagically (via `Procfile`)!
 
